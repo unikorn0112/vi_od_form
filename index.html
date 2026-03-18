@@ -75,7 +75,7 @@
         }
 
         async function init() {
-            await liff.init({ liffId: "您的購物LIFF_ID" });
+            await liff.init({ liffId: "2009407080-Od6lcvqf" });
             if (!liff.isLoggedIn()) liff.login();
             const p = await liff.getProfile();
             document.getElementById('uName').value = p.displayName;
